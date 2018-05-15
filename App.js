@@ -1,11 +1,15 @@
 import React from 'react';
+import Expo from 'expo';
 import { StyleSheet, Text, View } from 'react-native';
+import { VictoryLine } from "victory-native";
 
 export default class App extends React.Component {
   render() {
+    Expo.ScreenOrientation.allow(Expo.ScreenOrientation.Orientation.LANDSCAPE);
+
     return (
       <View style={styles.container}>
-        <Text>Open up App.js to start working on your app!</Text>
+        <VictoryLine />
       </View>
     );
   }
@@ -17,5 +21,6 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
+    margin: 50,
   },
 });
