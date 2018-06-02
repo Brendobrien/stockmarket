@@ -1,3 +1,7 @@
 node_modules/**/*
 .expo/*
 npm-debug.*
+.DS_Store
+state/firebase/initFirebase.js
+web/dist/*.js
+web/dist/*.js.map

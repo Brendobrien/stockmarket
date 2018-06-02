@@ -1057,6 +1057,10 @@ babel-plugin-check-es2015-constants@^6.22.0, babel-plugin-check-es2015-constants
   dependencies:
     babel-runtime "^6.22.0"
 
+babel-plugin-expo-web@^0.0.13:
+  version "0.0.13"
+  resolved "https://registry.yarnpkg.com/babel-plugin-expo-web/-/babel-plugin-expo-web-0.0.13.tgz#d892233025a9aa9ee08b2b0550d65d71dffe5671"
+
 babel-plugin-external-helpers@^6.22.0:
   version "6.22.0"
   resolved "https://registry.yarnpkg.com/babel-plugin-external-helpers/-/babel-plugin-external-helpers-6.22.0.tgz#2285f48b02bd5dede85175caf8c62e86adccefa1"
@@ -2975,6 +2979,15 @@ expand-tilde@^2.0.0, expand-tilde@^2.0.2:
   dependencies:
     homedir-polyfill "^1.0.1"
 
+expo-web@^0.0.13:
+  version "0.0.13"
+  resolved "https://registry.yarnpkg.com/expo-web/-/expo-web-0.0.13.tgz#827ca9708efd0b30f2fee1254e6539f7973703eb"
+  dependencies:
+    moment "^2.20.1"
+    moment-timezone "^0.5.14"
+    react-native-vector-icons "^4.5.0"
+    ua-parser-js "^0.7.17"
+
 expo@^27.0.0:
   version "27.0.1"
   resolved "https://registry.yarnpkg.com/expo/-/expo-27.0.1.tgz#556a37121282f4509b0821d8d4e7c8a8da0c11d8"
@@ -3173,6 +3186,13 @@ figures@^2.0.0:
   resolved "https://registry.yarnpkg.com/figures/-/figures-2.0.0.tgz#3ab1a2d2a62c8bfb431a0c94cb797a2fce27c962"
   dependencies:
     escape-string-regexp "^1.0.5"
+
+file-loader@^1.1.11:
+  version "1.1.11"
+  resolved "https://registry.yarnpkg.com/file-loader/-/file-loader-1.1.11.tgz#6fe886449b0f2a936e43cabaac0cdbfb369506f8"
+  dependencies:
+    loader-utils "^1.0.2"
+    schema-utils "^0.4.5"
 
 filename-regex@^2.0.0:
   version "2.0.1"
@@ -4990,6 +5010,16 @@ mkdirp@0.5.x, mkdirp@^0.5.0, mkdirp@^0.5.1, mkdirp@~0.5.0:
   dependencies:
     minimist "0.0.8"
 
+moment-timezone@^0.5.14:
+  version "0.5.17"
+  resolved "https://registry.yarnpkg.com/moment-timezone/-/moment-timezone-0.5.17.tgz#3c8fef32051d84c3af174d91dc52977dcb0ad7e5"
+  dependencies:
+    moment ">= 2.9.0"
+
+"moment@>= 2.9.0", moment@^2.20.1:
+  version "2.22.2"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.22.2.tgz#3c257f9839fc0e93ff53149632239eb90783ff66"
+
 morgan@^1.9.0:
   version "1.9.0"
   resolved "https://registry.yarnpkg.com/morgan/-/morgan-1.9.0.tgz#d01fa6c65859b76fcf31b3cb53a3821a311d8051"
@@ -5918,6 +5948,14 @@ react-native-svg@6.2.2:
 react-native-vector-icons@4.5.0:
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/react-native-vector-icons/-/react-native-vector-icons-4.5.0.tgz#6b95619e64f62f05f579f74a01fe5640df95158b"
+  dependencies:
+    lodash "^4.0.0"
+    prop-types "^15.5.10"
+    yargs "^8.0.2"
+
+react-native-vector-icons@^4.5.0:
+  version "4.6.0"
+  resolved "https://registry.yarnpkg.com/react-native-vector-icons/-/react-native-vector-icons-4.6.0.tgz#e4014311ffa6de397d914ffc31b7097a874cc8d5"
   dependencies:
     lodash "^4.0.0"
     prop-types "^15.5.10"
@@ -6990,7 +7028,7 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
 
-ua-parser-js@^0.7.9:
+ua-parser-js@^0.7.17, ua-parser-js@^0.7.9:
   version "0.7.18"
   resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.18.tgz#a7bfd92f56edfb117083b69e31d2aa8882d4b1ed"
 
