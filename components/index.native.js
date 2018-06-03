@@ -1,9 +1,12 @@
 import React from 'react';
+import Expo from 'expo';
 import { StyleSheet, Text, View } from 'react-native';
-import { VictoryChart, VictoryLine, VictoryTheme } from "victory";
+import { VictoryChart, VictoryLine, VictoryTheme } from "victory-native";
 
 export default class App extends React.Component {
   render() {
+    Expo.ScreenOrientation.allow(Expo.ScreenOrientation.Orientation.LANDSCAPE);
+
     return (
       <View style={styles.container}>
         <VictoryChart
@@ -34,5 +37,6 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
+    margin: 50,
   },
 });
